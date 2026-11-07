@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "categoria": "Saúde",
+    "titulo": "Consultar ou tirar o Cartão Nacional de Saúde (Cartão SUS)",
+    "palavras_chave": ["cartao sus", "cartao do sus", "cartao nacional de saude", "sus", "cns", "meu sus digital", "numero do cartao do sus"],
+    "resposta": "O número do seu Cartão Nacional de Saúde pode ser consultado de graça no aplicativo ou site Meu SUS Digital, entrando com a conta gov.br. Se preferir, procure uma Unidade Básica de Saúde (UBS). O Ministério da Saúde está passando a usar o CPF como identificação principal no SUS, mas quem não tem CPF continua sendo atendido.",
+    "documentos": ["Documento oficial com foto", "CPF", "Comprovante de residência (se o cadastro for feito na UBS)", "Conta gov.br (para usar o app ou o site)"],
+    "onde": "Aplicativo ou site Meu SUS Digital, ou Unidade Básica de Saúde (UBS) mais próxima",
+    "fonte": "https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 2,
+    "categoria": "Saúde",
+    "titulo": "Vacinas para quem tem 60 anos ou mais",
+    "palavras_chave": ["vacina", "vacinas", "vacinacao", "vacina da gripe", "vacina gripe", "vacina covid", "caderneta de vacinacao", "calendario de vacinacao"],
+    "resposta": "A partir dos 60 anos, o calendário do Ministério da Saúde indica: vacina da gripe (1 dose por ano), vacina contra a covid-19 (1 dose a cada 6 meses), dupla adulto contra difteria e tétano (reforço a cada 10 anos) e hepatite B para quem não tem as 3 doses. Outras vacinas dependem do seu histórico e da sua saúde. Leve sua caderneta e converse com a equipe da UBS.",
+    "documentos": ["Documento oficial com foto", "CPF", "Caderneta de vacinação (se tiver)"],
+    "onde": "Sala de vacina de uma Unidade Básica de Saúde (UBS) da sua cidade",
+    "fonte": "https://www.gov.br/saude/pt-br/composicao/svsa/pni/calendario-tecnico/calendario-tecnico-nacional-de-vacinacao-idoso",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 3,
+    "categoria": "Saúde",
+    "titulo": "Remédios e fraldas pelo Farmácia Popular",
+    "palavras_chave": ["farmacia popular", "remedio gratis", "remedio de graca", "remedio gratuito", "medicamento gratuito", "medicamentos gratuitos", "fralda geriatrica", "fraldas geriatricas", "remedio pressao", "remedio diabetes", "remedio de pressao", "remedio de diabetes", "remedio", "remedios"],
+    "resposta": "No Programa Farmácia Popular, remédios para doenças como diabetes, hipertensão e asma, entre outros, são entregues de graça em farmácias credenciadas. É preciso levar receita médica válida. As fraldas geriátricas também fazem parte do programa, para quem tem 60 anos ou mais ou é pessoa com deficiência, e têm regras próprias.",
+    "documentos": ["Documento oficial com foto", "CPF", "Receita médica válida (do SUS ou particular)"],
+    "onde": "Farmácia com o selo 'Aqui Tem Farmácia Popular'",
+    "fonte": "https://www.gov.br/saude/pt-br/composicao/sectics/farmacia-popular",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 4,
+    "categoria": "Direitos e Benefícios",
+    "titulo": "Atendimento prioritário para pessoas idosas",
+    "palavras_chave": ["prioridade", "atendimento prioritario", "atendimento preferencial", "fila preferencial", "fila prioritaria", "prioridade especial", "80 anos"],
+    "resposta": "A lei garante às pessoas com 60 anos ou mais atendimento preferencial, imediato e individualizado em órgãos públicos e em empresas que prestam serviços ao público. Entre as pessoas idosas, quem tem mais de 80 anos tem prioridade especial.",
+    "documentos": ["Documento oficial com foto (para comprovar a idade, se pedirem)"],
+    "onde": "Em qualquer órgão público ou empresa que atenda o público",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 5,
+    "categoria": "Transporte",
+    "titulo": "Transporte coletivo urbano gratuito",
+    "palavras_chave": ["onibus gratis", "onibus de graca", "transporte gratuito", "transporte publico gratuito", "gratuidade no onibus", "gratuidade transporte", "passe livre", "bilhete unico idoso", "paga onibus", "pagar onibus", "onibus idoso"],
+    "resposta": "O Estatuto da Pessoa Idosa garante transporte coletivo urbano e semiurbano gratuito a partir dos 65 anos. Cada cidade pode ter regras próprias, inclusive sobre idade e cadastro ou cartão. Confirme na prefeitura ou na empresa de ônibus da sua cidade.",
+    "documentos": ["Documento oficial com foto que comprove a idade"],
+    "onde": "Empresa de ônibus ou prefeitura da sua cidade",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 6,
+    "categoria": "Transporte",
+    "titulo": "Passagem de ônibus gratuita ou com desconto entre estados",
+    "palavras_chave": ["viagem interestadual", "passagem gratis", "passagem gratuita", "passagem de onibus", "onibus de viagem", "carteira do idoso", "carteira da pessoa idosa", "desconto passagem", "viajar de graca"],
+    "resposta": "Em viagens de ônibus entre estados (serviço convencional), pessoas com 60 anos ou mais e renda de até 2 salários mínimos têm direito a 2 vagas gratuitas por ônibus. Se essas vagas já estiverem ocupadas, a empresa deve dar desconto de pelo menos 50% na passagem. É preciso comprovar idade e renda, e a Carteira da Pessoa Idosa ajuda nisso.",
+    "documentos": ["Documento oficial com foto que comprove 60 anos ou mais", "Comprovante de renda de até 2 salários mínimos (por exemplo, o extrato do benefício do INSS) ou Carteira da Pessoa Idosa"],
+    "onde": "Guichê ou site da empresa de ônibus",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 7,
+    "categoria": "Direitos e Benefícios",
+    "titulo": "Pedir aposentadoria por idade",
+    "palavras_chave": ["aposentadoria", "aposentar", "aposentadoria por idade", "como me aposentar", "pedir aposentadoria", "idade para aposentar", "quando posso me aposentar"],
+    "resposta": "Pela regra geral (trabalhador urbano), a aposentadoria por idade exige 65 anos para homens e 62 anos para mulheres, mais um tempo mínimo de contribuição ao INSS (15 anos para mulheres; para homens, 15 ou 20 anos, dependendo de quando começaram a contribuir). Antes de pedir, consulte seu tempo no Meu INSS. O pedido pode ser feito pelo Meu INSS ou pelo telefone 135.",
+    "documentos": ["Documento oficial com foto", "CPF", "Conta gov.br"],
+    "onde": "Site ou aplicativo Meu INSS, ou telefone 135",
+    "fonte": "https://www.gov.br/inss",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 8,
+    "categoria": "Direitos e Benefícios",
+    "titulo": "Prova de vida do INSS",
+    "palavras_chave": ["prova de vida", "prova de vida inss", "bloqueio beneficio", "beneficio bloqueado", "aposentadoria bloqueada", "beneficio suspenso", "comprovacao de vida", "biometria facial", "bloqueado", "bloqueou", "suspenso"],
+    "resposta": "A prova de vida é anual para quem recebe aposentadoria, pensão ou outro benefício de longa duração do INSS. Hoje ela costuma ser confirmada automaticamente quando há algum registro seu, como voto, vacinação ou biometria. Se aparecer pendência, ela pode ser feita pelo aplicativo gov.br ou Meu INSS, com reconhecimento facial, ou no banco onde você recebe. Para saber se está em dia, consulte o Meu INSS ou ligue 135. O INSS não faz prova de vida por telefone ou mensagem.",
+    "documentos": ["Celular com os aplicativos gov.br e Meu INSS", "Conta gov.br (CPF e senha)"],
+    "onde": "Aplicativo gov.br, aplicativo ou site Meu INSS, banco onde recebe o benefício, ou telefone 135",
+    "fonte": "https://www.gov.br/inss",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 9,
+    "categoria": "Direitos e Benefícios",
+    "titulo": "BPC: benefício assistencial para idosos de baixa renda",
+    "palavras_chave": ["bpc", "loas", "beneficio assistencial", "beneficio de prestacao continuada", "idoso que nunca contribuiu", "nunca contribui para o inss", "cadunico"],
+    "resposta": "O BPC paga 1 salário mínimo por mês a pessoas com 65 anos ou mais que tenham baixa renda: a renda da família dividida pelo número de pessoas deve ser de até 1/4 do salário mínimo. Não é preciso ter contribuído ao INSS, mas é obrigatório estar no Cadastro Único (CadÚnico) com dados atualizados. O BPC não é aposentadoria.",
+    "documentos": ["Documento oficial com foto", "CPF", "Cadastro Único (CadÚnico) atualizado", "Conta gov.br"],
+    "onde": "CadÚnico: CRAS da sua cidade. Pedido do benefício: site ou aplicativo Meu INSS, ou telefone 135",
+    "fonte": "https://www.gov.br/inss",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 10,
+    "categoria": "Direitos e Benefícios",
+    "titulo": "Denunciar violência ou maus-tratos contra pessoa idosa",
+    "palavras_chave": ["denunciar", "disque 100", "violencia contra idoso", "violencia contra a pessoa idosa", "maus tratos", "abandono de idoso", "agressao ao idoso", "ligue 180"],
+    "resposta": "Ligue 100 (Disque Direitos Humanos). A ligação é gratuita, funciona 24 horas por dia e qualquer pessoa pode denunciar, mesmo sem ser a vítima. A denúncia pode ser anônima. Se a vítima for uma mulher idosa em violência doméstica, também é possível ligar 180. Em caso de perigo imediato, ligue 190.",
+    "documentos": ["Nenhum documento é necessário"],
+    "onde": "Telefone 100 (Disque 100), WhatsApp (61) 99611-0100 ou site gov.br/mdh/pt-br/ondh",
+    "fonte": "https://www.gov.br/mdh/pt-br/ondh",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 11,
+    "categoria": "Segurança e Golpes",
+    "titulo": "Descontos indevidos na aposentadoria ou pensão",
+    "palavras_chave": ["desconto indevido", "descontos indevidos", "desconto na aposentadoria", "desconto no beneficio", "desconto no inss", "desconto associativo", "mensalidade associacao", "mensalidade sindicato", "desconto na minha aposentadoria", "descontos na aposentadoria", "descontaram", "descontando", "apareceu um desconto", "nao reconheco o desconto"],
+    "resposta": "Veja o extrato de pagamento no Meu INSS. Se houver desconto de associação ou sindicato que você não autorizou, conteste ou peça a exclusão da mensalidade pelo Meu INSS ou pelo telefone 135. O prazo do acordo de devolução dos descontos antigos terminou em 20/06/2026, segundo as notícias; confirme no site gov.br/inss se existe novo prazo.",
+    "documentos": ["Conta gov.br (CPF e senha)", "Extrato de pagamento do benefício (no Meu INSS)"],
+    "onde": "Site ou aplicativo Meu INSS, telefone 135 ou agências dos Correios",
+    "fonte": "https://www.gov.br/inss",
+    "verificado_em": "2026-11-07"
+  },
+  {
+    "id": 12,
+    "categoria": "Segurança e Golpes",
+    "titulo": "Golpes contra aposentados: ligações, mensagens e falsos atendentes",
+    "palavras_chave": ["golpe", "golpes", "golpe do telefone", "golpe por telefone", "golpe do inss", "golpe no whatsapp", "falso funcionario", "falso atendente", "fraude", "ligacao suspeita", "mensagem suspeita"],
+    "resposta": "O INSS nunca pede senha, documentos, fotos, dinheiro ou dados por telefone, mensagem ou visita. Se alguém pedir, é golpe: desligue, não clique em links e não envie nada. Para confirmar, use o Meu INSS ou o telefone 135. Avisos verdadeiros chegam pelo aplicativo Meu INSS, pela caixa postal do gov.br ou pelo WhatsApp do Governo do Brasil com selo azul de conta verificada.",
+    "documentos": ["Nenhum documento é necessário"],
+    "onde": "Meu INSS (meu.inss.gov.br), site gov.br/inss ou telefone 135",
+    "fonte": "https://www.gov.br/inss",
+    "verificado_em": "2026-11-07"
+  }
+]
