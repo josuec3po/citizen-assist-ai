@@ -4,7 +4,7 @@ from orientacao import Orientacao
 ACENTOS = {"á": "a", "à": "a", "ã": "a", "â": "a", "é": "e", "ê": "e",
            "í": "i", "ó": "o", "õ": "o", "ô": "o", "ú": "u", "ç": "c"}
 
-# Pesos da pontuação (explicados no README)
+# Pesos da pontuação (explicacao no README)
 PONTOS_PALAVRA_CHAVE = 3
 PONTOS_PALAVRA_TITULO = 1
 TAMANHO_MINIMO_PALAVRA_TITULO = 4
@@ -21,7 +21,6 @@ def normalizar(texto):
 
 class BaseConhecimento:
     # Lê o JSON e faz a busca. -> conjunto das orientações"""
-
     def __init__(self, caminho):
         self.caminho = caminho
         self.orientacoes = []  # lista de objetos Orientacao (composição)
