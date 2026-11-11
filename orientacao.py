@@ -1,5 +1,6 @@
 class Orientacao:
-    # Inicializar classe
+    """Uma orientação da base de conhecimento (um registro do JSON)."""
+
     def __init__(self, id, categoria, titulo, palavras_chave,
                  resposta, documentos, onde, fonte, verificado_em):
         self.id = id
@@ -13,7 +14,7 @@ class Orientacao:
         self.verificado_em = verificado_em
 
     def exibir(self):
-        # Orientação na tela, com fonte, data e aviso.
+        """Mostra a orientação na tela, sempre com fonte, data e aviso."""
         print(f"\n>> {self.titulo}  [{self.categoria}]")
         print(self.resposta)
         print("Documentos necessários:")
