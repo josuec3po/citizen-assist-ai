@@ -126,6 +126,11 @@ class Assistente:
                 encontrou = False
                 ultimo_id = None
                 print("\nNão encontrei uma orientação para essa dúvida.")
+                sugestoes = self.base.sugerir(texto)
+                if sugestoes:
+                    print("\nTalvez uma destas orientações ajude. Tente escrever sobre elas:")
+                    for pontos, o in sugestoes:
+                        print(f"  - {o.titulo}")
                 print("Tente outras palavras ou use a navegação por categorias.")
                 categorias = self.base.categorias()
                 if categorias:

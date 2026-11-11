@@ -11,15 +11,13 @@ def main():
     print("=" * 50)
     print(f" {assistente.nome}: orientação para pessoas idosas")
     print("=" * 50)
-    print("Este assistente *NÃO* é um canal oficial e não pede nome, CPF,")
+    print("Este assistente NÃO é um canal oficial e não pede nome, CPF,")
     print("telefone ou e-mail. Não digite dados pessoais.")
 
-    # Caso não encontre
     if not base.orientacoes:
-        print("\nAviso: a base de conhecimento está vazia ou não foi carregada.")
+        print("\nAtenção: a base de conhecimento está vazia ou não foi carregada.")
 
     try:
-        # Loop menu principal
         while True:
             print("\n--- Menu principal ---")
             print("1. Fazer uma pergunta")
