@@ -76,9 +76,12 @@ Pergunta e títulos/palavras-chave são normalizados (minúsculas, sem acento, s
 ## Teste com usuários
 - Pessoas de fora da equipe: 3
 - Atendimentos totais: 3
-- Indicadores obtidos (copie da opção 3 do menu): -
+- Indicadores obtidos: -
 - Dúvidas sem solução: -
-- Melhoria feita a partir do teste: [PREENCHER, ex.: nova palavra-chave no JSON]
+- Melhoria feita a partir do teste: 
+  - 9/11 - Uma pessoa digitou só "transporte" e o assistente não encontrou (1 ponto, abaixo do
+    mínimo de 3). Adicionamos a palavra-chave "transporte" às orientações 5 e 6; agora a mesma
+    pergunta dá 4 pontos e a orientação é mostrada.
 - Não registrar nomes nem dados das pessoas testadas.
 
 ## Limitações
@@ -89,4 +92,3 @@ Pergunta e títulos/palavras-chave são normalizados (minúsculas, sem acento, s
 - As informações mudam com o tempo e precisam ser reverificadas.
 
 ## Vídeo técnico
-- [PREENCHER: link do YouTube (não listado)]
