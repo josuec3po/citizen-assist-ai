@@ -34,5 +34,17 @@
     "tempo_segundos": 45.1,
     "sessao": "2026-11-09 16:21:23",
     "nota_facilidade": 1
+  },
+  {
+    "data": "2026-11-11 13:51:01",
+    "origem": "pergunta",
+    "pergunta": "transporte",
+    "id_orientacao": null,
+    "encontrou": false,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo_segundos": 102.0,
+    "sessao": "2026-11-11 13:49:17",
+    "nota_facilidade": 5
   }
 ]
