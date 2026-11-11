@@ -1,5 +1,6 @@
 [
   {
+    "comentario": "TESTE",
     "data": "2026-11-09 16:18:36",
     "origem": "pergunta",
     "pergunta": "sus",
@@ -12,6 +13,7 @@
     "nota_facilidade": 5
   },
   {
+    "comentario": "TESTE",
     "data": "2026-11-09 16:19:31",
     "origem": "pergunta",
     "pergunta": "estou me sentindo mal",
@@ -24,6 +26,7 @@
     "nota_facilidade": 1
   },
   {
+    "comentario": "TESTE",
     "data": "2026-11-09 16:22:16",
     "origem": "pergunta",
     "pergunta": "Transporte",
@@ -36,6 +39,7 @@
     "nota_facilidade": 1
   },
   {
+    "comentario": "TESTE",
     "data": "2026-11-11 13:51:01",
     "origem": "pergunta",
     "pergunta": "transporte",
