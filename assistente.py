@@ -7,7 +7,7 @@ from datetime import datetime
 PONTOS_PARA_ALTA = 6    # 6 pontos ou mais: confiança ALTA
 PONTOS_MINIMOS = 3   # de 3 a 5 pontos: confiança MÉDIA; abaixo disso: não encontrei
 
-CAMPOS_CSV = ["data", "origem", "pergunta", "id_orientacao", "encontrou",
+CAMPOS_CSV = ["participante", "data", "origem", "pergunta", "id_orientacao", "encontrou",
               "ajudou", "tentativas", "tempo_segundos", "sessao",
               "nota_facilidade"]
 
@@ -35,6 +35,7 @@ class Assistente:
 
     def __init__(self, nome, base, caminho_historico="data/historico.json",
                  caminho_csv="data/atendimentos.csv"):
+        self.participante = self.proximo_participante()
         self.nome = nome
         self.base = base  # objeto BaseConhecimento (composição)
         self.caminho_historico = caminho_historico
@@ -69,6 +70,7 @@ class Assistente:
                   tentativas, tempo):
         """Guarda um atendimento no histórico (e no arquivo JSON)."""
         atendimento = {
+            "participante": self.participante,
             "data": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "origem": origem,                # "pergunta" ou "categoria"
             "pergunta": pergunta,
@@ -227,6 +229,9 @@ class Assistente:
 
         tentativas_medias = sum(a.get("tentativas", 0) for a in self.historico) / total
 
+        sessoes = {a.get("sessao") for a in self.historico}
+        print(f"Sessões de uso (pessoas): {len(sessoes)}")
+
         # uma nota por sessão (todos os atendimentos da sessão guardam a mesma)
         notas = {}
         for a in self.historico:
@@ -274,3 +279,7 @@ class Assistente:
             print(f"\nAtendimentos exportados para {self.caminho_csv}")
         except OSError:
             print("Aviso: não foi possível exportar o CSV.")
+    def proximo_participante(self):
+        """Código anônimo da sessão"""
+        sessoes = {a.get("sessao") for a in self.historico}
+        return f"P{len(sessoes) + 1:02d}"
