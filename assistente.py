@@ -35,7 +35,6 @@ class Assistente:
 
     def __init__(self, nome, base, caminho_historico="data/historico.json",
                  caminho_csv="data/atendimentos.csv"):
-        self.participante = self.proximo_participante()
         self.nome = nome
         self.base = base  # objeto BaseConhecimento (composição)
         self.caminho_historico = caminho_historico
@@ -43,6 +42,7 @@ class Assistente:
         self.sessao = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         self.historico = []
         self.carregar_historico()
+        self.participante = self.proximo_participante()
 
     # ---------- histórico em arquivo ----------
     def carregar_historico(self):
