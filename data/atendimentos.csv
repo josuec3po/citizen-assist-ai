@@ -1,1 +1,12 @@
-﻿
+﻿participante,data,origem,pergunta,id_orientacao,encontrou,ajudou,tentativas,tempo_segundos,sessao,nota_facilidade
+P05,2026-11-12 20:20:25,pergunta,sus,1,sim,sim,1,4.8,2026-11-12 20:20:02,4
+P05,2026-11-12 20:20:49,pergunta,transporte,,nao,nao,1,11.0,2026-11-12 20:20:02,4
+P05,2026-11-12 20:21:02,categoria,,5,sim,sim,1,9.3,2026-11-12 20:20:02,4
+P06,2026-11-12 20:57:33,categoria,,6,sim,sim,1,4.0,2026-11-12 20:57:26,5
+P06,2026-11-12 20:57:37,categoria,,5,sim,sim,1,4.1,2026-11-12 20:57:26,5
+P06,2026-11-12 20:57:52,categoria,,3,sim,sim,1,11.6,2026-11-12 20:57:26,5
+P06,2026-11-12 20:58:02,categoria,,3,sim,sim,1,10.3,2026-11-12 20:57:26,5
+P07,2026-11-13 12:35:54,categoria,,9,sim,sim,1,21.1,2026-11-13 12:35:20,4
+P07,2026-11-13 12:36:07,categoria,,10,sim,sim,1,12.9,2026-11-13 12:35:20,4
+P08,2026-11-13 19:16:46,pergunta,cartao do sus,1,sim,sim,1,13.8,2026-11-13 19:16:28,4
+P08,2026-11-13 19:16:57,pergunta,meios de transporte gratis,,nao,nao,1,10.7,2026-11-13 19:16:28,4
