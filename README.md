@@ -1,6 +1,6 @@
-# Citizen Assist AI 
+# Elderly Assist(Citizen Assist AI)
 
-Assistente de terminal em Python que orienta **pessoas idosas** sobre saúde, transporte,
+Assistente de terminal em Python, Citizen Assist AI que resolvemos chamar também de Elderly Assist, orienta **pessoas idosas** sobre saúde, transporte,
 direitos e benefícios e golpes, usando apenas uma base de conhecimento verificada em fontes oficiais.
 
 ## Integrantes
@@ -9,7 +9,7 @@ direitos e benefícios e golpes, usando apenas uma base de conhecimento verifica
 - Fernando Lobato Rodrigues — RM 569377
 
 ## Público e problema
-- **Público:** pessoas idosas (60 anos ou mais) e seus familiares.
+- **Público:** pessoas idosas (50 anos ou mais) e seus familiares.
 - **Problema:** a informação sobre Cartão SUS, vacinas, benefícios do INSS, transporte e golpes
   existe, mas está espalhada, em linguagem técnica e misturada com páginas falsas.
 
