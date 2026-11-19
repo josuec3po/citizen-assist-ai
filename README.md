@@ -9,7 +9,7 @@ direitos e benefícios e golpes, usando apenas uma base de conhecimento verifica
 - Fernando Lobato Rodrigues — RM 569377
 
 ## Público e problema
-- **Público:** pessoas idosas (50 anos ou mais) e seus familiares.
+- **Público:** pessoas idosas (60 anos ou mais) e seus familiares também com idades podendo ser abaixo dos 60.
 - **Problema:** a informação sobre Cartão SUS, vacinas, benefícios do INSS, transporte e golpes
   existe, mas está espalhada, em linguagem técnica e misturada com páginas falsas.
 
@@ -58,6 +58,9 @@ Pergunta e títulos/palavras-chave são normalizados (minúsculas, sem acento, s
 - Melhor orientação com **3 a 5 pontos**: confiança **MÉDIA**
 - Menos de 3 pontos: "não encontrei", com sugestão de outras palavras e das categorias
 - O assistente mostra a melhor orientação e até duas alternativas com 3 pontos ou mais.
+- Menos de 3 pontos: "não encontrei". Nesse caso, o método `sugerir()` faz uma busca
+     flexível por palavras soltas (categoria +2, título +1, palavra-chave +1) e apenas
+     sugere orientações parecidas. A sugestão não conta como resposta encontrada.
 
 ## Privacidade e transparência
 - O assistente nunca pede nome, CPF, telefone ou e-mail.
@@ -65,6 +68,7 @@ Pergunta e títulos/palavras-chave são normalizados (minúsculas, sem acento, s
 - Toda resposta mostra fonte, data de verificação e o aviso de que não é canal oficial.
 
 ## Integrações com outras disciplinas
+- Nenhuma integração nesta versão, essa disciplina na verdade vai integrar as outras, é a nossa base.
 
 ## Fontes consultadas
 - Ministério da Saúde (gov.br/saude): Meu SUS Digital, calendário de vacinação do idoso, Farmácia Popular
@@ -74,15 +78,27 @@ Pergunta e títulos/palavras-chave são normalizados (minúsculas, sem acento, s
 
 
 ## Teste com usuários
-- Pessoas de fora da equipe: 3
-- Atendimentos totais: 3
-- Indicadores obtidos: -
-- Dúvidas sem solução: -
-- Melhoria feita a partir do teste: 
-  - 9/11 - Uma pessoa digitou só "transporte" e o assistente não encontrou (1 ponto, abaixo do
-    mínimo de 3). Adicionamos a palavra-chave "transporte" às orientações 5 e 6; agora a mesma
-    pergunta dá 4 pontos e a orientação é mostrada.
-- Não registrar nomes nem dados das pessoas testadas.
+Testamos com 4 pessoas de fora da equipe, somando 11 atendimentos, entre 12 e 13 de
+novembro de 2026. Cada sessão do programa corresponde a uma pessoa, identificada
+automaticamente por um código anônimo (P05 a P08). Nenhum nome ou dado pessoal foi registrado.
+
+Indicadores obtidos (opção 3 do menu):
+- Resposta encontrada: 82%
+- Taxa de acerto (ajudou): 82%
+- Tempo médio para encontrar: 10,2 s
+- Tentativas por atendimento: 1,0
+- Facilidade de uso (1 a 5): 4,2 (4 sessões)
+
+Dúvidas sem solução:
+- "transporte"
+- "meios de transporte gratis"
+
+Dos 11 atendimentos:
+  - 7 foram pela navegação de categorias
+  - 4 por pergunta em texto livre, dessas 4 perguntas, 2 não foram encontradas.
+
+Melhoria feita a partir do teste: 
+A orientação 5 não tinha "transporte" nem "transporte gratis" nas palavras-chave, e o título diz “gratuito”, não “gratis”. Por isso as duas perguntas deram só 1 ponto. Adicionando "transporte" e "transporte gratis" às palavras-chave da orientação 5 resolve as duas: “meios de transporte gratis” passa a dar 4 pontos (MÉDIA). Essa correção feito por nós é apresentada no vídeo.
 
 ## Limitações
 - Só responde o que está na base (12 orientações) e não entende sinônimos ou erros de digitação

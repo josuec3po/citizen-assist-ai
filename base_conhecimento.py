@@ -17,8 +17,7 @@ PALAVRAS_IGNORADAS = {"como", "para", "quero", "saber", "sobre", "preciso", "ond
 
 
 def normalizar(texto):
-    """Minúsculas, sem acentos e sem pontuação. Devolve com espaço nas pontas
-    para que a busca encontre palavras inteiras (ex.: ' sus ' e não 'susto')."""
+    # Minúsculas, sem acentos e sem pontuação. Devolve com espaço nas pontas para que a busca encontre palavras inteiras (Por exemplo.: sus e não susto)
     texto = texto.lower().strip()
     for letra, troca in ACENTOS.items():
         texto = texto.replace(letra, troca)
@@ -28,14 +27,14 @@ def normalizar(texto):
 
 
 class BaseConhecimento:
-    """O conjunto de todas as orientações. Lê o JSON e faz a busca."""
+    # Conjunto de todas as orientações. Le o JSON e faz a busca.
 
     def __init__(self, caminho):
         self.caminho = caminho
-        self.orientacoes = []  # lista de objetos Orientacao (composição)
+        self.orientacoes = []  # lista de objetos Orientacao 
 
     def carregar(self):
-        """Lê o JSON e cria os objetos Orientacao. Nunca trava o programa."""
+        # Le o JSON e cria os objetos de Orientacao.
         try:
             with open(self.caminho, encoding="utf-8") as arquivo:
                 dados = json.load(arquivo)
@@ -58,7 +57,7 @@ class BaseConhecimento:
                 print("Aviso: um registro com campos incorretos foi ignorado.")
 
     def categorias(self):
-        """Lista de categorias, sem repetir, na ordem em que aparecem."""
+        # Lista de categorias, sem repetir, na ordem em que aparecem
         nomes = []
         for o in self.orientacoes:
             if o.categoria not in nomes:
