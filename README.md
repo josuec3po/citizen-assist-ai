@@ -108,3 +108,5 @@ A orientação 5 não tinha "transporte" nem "transporte gratis" nas palavras-ch
 - As informações mudam com o tempo e precisam ser reverificadas.
 
 ## Vídeo técnico
+
+Link: https://youtu.be/PYGpBesCmxo
